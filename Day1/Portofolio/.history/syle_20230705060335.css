@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+/* UMUM */
+.N {
+  background-color: #cf9378;
+}
+.navbar-brand {
+  font-family: Gagalin;
+}
+.navbar {
+  border: none;
+}
+.nav-link {
+  font-family: Gagalin;
+  color: white;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-image: url(./asset/img/wave.svg);
+  background-size: cover;
+  height: 768px;
+  margin-top: -5px;
+  border: none;
+}
+
+.nama {
+  font-family: Shrikhand;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.job {
+  font-family: Shrikhand;
+  color: #665e5a;
+  text-align: center;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* Navbar */
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #ffde59;
+    width: 50%;
+    margin: auto;
+  }
+  .see {
+    background-color: #f89f7b;
+    border-color: white;
+    color: #ffde59;
+    font-family: Shrikhand;
+  }
+  .see:hover {
+    background-color: #665e5a;
+    border-color: yellow;
+  }
+}

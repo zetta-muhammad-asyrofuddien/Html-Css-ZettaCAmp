@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+h1 {
+  font-family: dmSans;
+}

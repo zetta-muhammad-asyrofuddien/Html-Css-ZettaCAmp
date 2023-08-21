@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+/* UMUM */
+.N {
+  background-color: #cf9378;
+}
+.navbar-brand {
+  font-family: Gagalin;
+}
+
+.nav-link {
+  font-family: Gagalin;
+  color: white;
+  margin-right: 20px;
+}
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* Navbar */
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #ffde59;
+    width: 50%;
+  }
+}

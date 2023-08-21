@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+/* UMUM */
+.N {
+  background-color: #cf9378;
+  margin-bottom: 0;
+}
+.navbar-brand {
+  font-family: Gagalin;
+}
+.navbar {
+  border: none;
+}
+.nav-link {
+  font-family: Gagalin;
+  color: white;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-image: url(./asset/img/wave.svg);
+  background-size: cover;
+  height: 885px;
+  margin-top: -5px;
+  margin-bottom: 0;
+  border: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nama {
+  font-family: Shrikhand;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  text-shadow: 2px 2px #fcca87;
+}
+
+.job {
+  font-family: Shrikhand;
+  color: #665e5a;
+  text-align: center;
+}
+.see {
+  background-color: #f89f7b;
+  border-color: white;
+  color: #fcca87;
+  font-family: Shrikhand;
+}
+.see:hover {
+  background-color: #665e5a;
+  border-color: #fcca87;
+}
+h2.about {
+  font-family: Gagalin;
+}
+section.who {
+  background-color: #fff9f7;
+  margin-top: 0%;
+}
+.about {
+  height: 885px;
+}
+.about-kiri {
+  border-radius: 0 10% 10% 0;
+  text-shadow: 2px 2px #fcca87;
+}
+.about-kanan {
+  font-family: Gagalin;
+  text-align: center;
+}
+.deskripsi-saya {
+  font-family: dmSans;
+  font-size: 30px;
+  margin-right: 20px;
+  color: #665e5a;
+}
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #fcca87;
+  width: 50%;
+  margin: auto;
+}
+.foto {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.project {
+  background-color: #fff8f5;
+}
+.project h2 {
+  font-family: Gagalin;
+  color: #665e5a;
+}
+.project {
+  height: 885px;
+}
+.card {
+  border-radius: 50px;
+  height: 400px;
+}
+.card img {
+  border-radius: 0 0 - 50px;
+}
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* Navbar */
+}

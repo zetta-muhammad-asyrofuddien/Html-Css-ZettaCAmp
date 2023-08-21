@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* Navbar */
+  .navbar-brand {
+    font-family: Gagalin;
+  }
+  .N {
+    background-color: aqua;
+  }
+  .nav-link {
+    font-family: Gagalin;
+  }
+}

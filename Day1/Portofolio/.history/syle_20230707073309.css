@@ -1,0 +1,206 @@
+@font-face {
+  font-family: Gagalin;
+  src: url(./asset/font/Gagalin-Regular.otf);
+}
+@font-face {
+  font-family: Shrikhand;
+  src: url(./asset/font/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: dmSans;
+  src: url(./asset/font/DMSans-Regular.ttf);
+}
+/* UMUM */
+.navbar-about {
+  background-color: #cf9378 !important;
+  margin-bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: background-color 0.3s ease;
+  border-radius: 0 0 20px 20px;
+}
+
+.navbar-brand {
+  font-family: Gagalin;
+}
+.navbar {
+  border: none;
+}
+.nav-link {
+  font-family: Gagalin;
+  color: white;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-image: url(./asset/img/wave.svg);
+  background-size: cover;
+  height: 885px;
+  margin-top: -5px;
+  margin-bottom: 0;
+  border: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nama {
+  font-family: Shrikhand;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  text-shadow: 2px 2px #fcca87;
+}
+
+.job {
+  font-family: Shrikhand;
+  color: #665e5a;
+  text-align: center;
+}
+.see {
+  background-color: #f89f7b;
+  border-color: white;
+  color: #665e5a;
+  font-family: Shrikhand;
+}
+.see:hover {
+  background-color: #665e5a;
+  border-color: #fcca87;
+}
+h2.about {
+  font-family: Gagalin;
+}
+section.who {
+  background-color: #fff9f7;
+  margin-top: 0%;
+}
+section.contact {
+  background-color: #fff9f7;
+  margin-top: 0%;
+}
+.contact h2 {
+  font-family: Gagalin;
+}
+.about {
+  height: 885px;
+}
+.about-kiri {
+  border-radius: 0 10% 10% 0;
+  text-shadow: 2px 2px #fcca87;
+}
+.about-kanan {
+  font-family: Gagalin;
+  text-align: center;
+}
+.deskripsi-saya {
+  font-family: dmSans;
+  font-size: 30px;
+  margin-right: 20px;
+  color: #665e5a;
+}
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #fcca87;
+  width: 50%;
+  margin: auto;
+}
+.foto {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.project {
+  height: 885px;
+}
+.skill {
+  background-color: #fff8f5;
+  height: 885px;
+}
+.skill h2 {
+  font-family: Gagalin;
+  color: #665e5a;
+}
+.project h2 {
+  font-family: Gagalin;
+  color: #665e5a;
+}
+.project .card {
+  height: 200px;
+  width: 350px;
+  background-image: linear-gradient(to right top, #1d3634, #2c514c);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project .card .circle {
+  position: absolute;
+  height: 0;
+  width: 0;
+  background-color: #000000;
+  opacity: 0.5;
+  top: -60px;
+  right: -60px;
+  transition: all 0.5s;
+}
+
+.project.card:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.project .card:hover .circle {
+  height: 300px;
+  width: 450px;
+}
+.card-img-overlay {
+  opacity: 0;
+  color: #ffffff;
+  font-family: Shrikhand;
+}
+.card-img-overlay:hover {
+  opacity: 100%;
+  transition: all 0.5s;
+}
+.commingsoon {
+  height: 200px;
+}
+
+.scrolling-wrapper img {
+  margin-right: 50px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Sesuaikan tinggi jika diperlukan */
+}
+
+.skill .container {
+  text-align: center;
+}
+
+.skill .scrolling-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  border: none;
+  border-radius: 30px;
+  background-color: #cf9378;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+label {
+  font-family: Gagalin;
+}
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  /* Navbar */
+}
